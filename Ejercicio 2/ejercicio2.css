@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url("278409.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Contenedor general */
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilos para el formulario */
+form {
+    width: 45%;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+/* Caja de información */
+.caja-informacion {
+    width: 45%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 2px solid #888;
+    border-radius: 5px;
+}
+
+.caja-informacion p {
+    font-size: 16px;
+}
+
+.caja-informacion button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.caja-informacion button:hover {
+    background-color: #c82333;
+}

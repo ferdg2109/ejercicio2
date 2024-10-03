@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con Validación</title>
+    <link rel="stylesheet" href="ejercicio2.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Formulario de Registro</h1>
+    </header>
+
+    <!-- Contenedor general -->
+    <div class="contenedor">
+        <!-- Formulario -->
+        <form id="formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos">
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad">
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <!-- Caja para mostrar la información validada -->
+        <div class="caja-informacion" id="info-box">
+            <p><strong>Nombre:</strong> <span id="mostrar-nombre"></span></p>
+            <p><strong>Apellidos:</strong> <span id="mostrar-apellidos"></span></p>
+            <p><strong>Edad:</strong> <span id="mostrar-edad"></span></p>
+            <button id="cerrar">Cerrar</button>
+        </div>
+    </div>
+
+    <script src="ejercicio2.js"></script>
+</body>
+</html>
